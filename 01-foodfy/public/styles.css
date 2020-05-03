@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* INDEX */
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+nav {
+    width: 940px;
+    margin: 0 auto 30px;
+    display: grid;
+    grid-template-columns: 90.6px auto;
+}
+
+nav img {
+    left: 0;
+    padding-top: 36.1px;
+}
+
+nav div {
+    padding-top: 38px;
+    padding-left: 122.4px;
+    text-align: left;
+}
+
+nav div a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #111111;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+nav div a:hover {
+    font-weight: bold;
+}
+
+section {
+    width: 940px;
+}
+
+section.welcome {
+    height: 366px;
+    margin: 36px auto 50px;
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    position: relative;
+}
+
+section.welcome h1 {
+    position: absolute;
+    left: 60px;
+    margin-top: 117px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    color: #000000;
+}
+
+section.welcome p {
+    position: absolute;
+    max-width: 316px;
+    left: 60px;
+    margin-top: 165px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+section.welcome img {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+section#receitas {
+    margin: 50px auto;
+}
+
+section#receitas h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.receitas-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px 20px;
+}
+
+.receita-card {
+    width: 300px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.receita-card img {
+    width: 100%;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.receita-card h3 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: normal;
+    margin: 20px auto 0 0;
+}
+
+.receita-card h4 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    margin: 5px auto 0 0;
+}
+
+footer {
+    margin-top: 50px;
+    height: 62px;
+    width: 100%;
+    text-align: center;
+    background-color: #EEEEEE;
+    display: grid;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+}
+
+/* MODAL */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-container {
+    width: 660px;
+    height: 413px;
+    margin: 25vh auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.modal-card {
+    padding: 30px;
+    text-align: center;
+}
+
+.modal-card img {
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.modal-card h2 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    margin: 20px 0 0 0;
+    color: #000000;
+}
+
+.modal-card h3 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: normal;
+    margin: 5px 0 60px 0;
+    color: #777777;
+}
+
+.modal-card a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #999999;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ABOUT */
+.sobre-container{
+    width: 940px;
+    margin: 50px auto;
+    text-align: justify;
+}
+
+.sobre-container h1 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.sobre-container h2 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.sobre-container p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+}
